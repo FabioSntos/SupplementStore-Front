@@ -23,7 +23,9 @@ export const Slide = () => {
           {slide === 1 && (
             <Li
               style={{ backgroundImage: `url(${Slide1})` }}
-              className="teste1"
+              initial={{ x: 300, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              exit={{ x: "-120%", opacity: 1 }}
             ></Li>
           )}
         </AnimatePresence>
@@ -34,16 +36,13 @@ export const Slide = () => {
               initial={{ x: 300, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               exit={{ x: "-120%", opacity: 1 }}
-            >
-              <div className="liContent"></div>
-            </Li>
+            ></Li>
           )}
         </AnimatePresence>
         <AnimatePresence>
           {slide === 3 && (
             <Li
               style={{ backgroundImage: `url(${Slide3})` }}
-              className="teste2"
               initial={{ x: 300, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               exit={{ x: "-120%", opacity: 1 }}

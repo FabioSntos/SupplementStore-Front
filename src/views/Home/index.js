@@ -4,6 +4,8 @@ import { ButtonMobile, Header } from "./styles";
 //assets
 import Logo from "../../assets/LOGO.svg";
 import { Slide } from "../../components/Slide/index";
+import { Main } from "../../components/main";
+import { Department } from "../../components/Department";
 
 export const Home = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -18,6 +20,8 @@ export const Home = () => {
         ></ButtonMobile>
       </Header>
       <Slide />
+      <Main />
+      <Department />
     </>
   );
 };
