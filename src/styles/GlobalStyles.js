@@ -8,6 +8,9 @@ export const GlobalStyles = createGlobalStyle`
   }
   body {
     background-color:#F5F5F5;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Poppins'
   }
 
 `;

@@ -11,6 +11,7 @@ export const DepartmentCardStyle = styled.div`
   filter: drop-shadow(8px 8px 4px rgba(255, 255, 255, 0.25));
   border-radius: 50px;
   cursor: pointer;
+  min-width: 300px;
 
   .departmentContent {
     height: 70%;

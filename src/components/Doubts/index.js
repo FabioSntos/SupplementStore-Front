@@ -1,5 +1,23 @@
 import React from "react";
+import { DoubtCard } from "../DoubtCard";
+import { ContainerDoubts, ImageDoubtsContainer, Container } from "./styles";
+
+import DoubtImage from "../../assets/DoubtImage.png";
 
 export const Doubts = () => {
-  return <div></div>;
+  return (
+    <Container>
+      <ContainerDoubts>
+        <h3>Perguntas frequentes</h3>
+        <DoubtCard />
+        <DoubtCard />
+        <DoubtCard />
+        <DoubtCard />
+        <DoubtCard />
+      </ContainerDoubts>
+      <ImageDoubtsContainer>
+        <img src={DoubtImage} />
+      </ImageDoubtsContainer>
+    </Container>
+  );
 };
