@@ -1,5 +1,4 @@
 import { Container } from "./styles";
-import slide1 from "../../assets/slide1.png";
 
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";

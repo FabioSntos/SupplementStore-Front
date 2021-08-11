@@ -4,6 +4,9 @@ export const Container = styled.main`
   margin: 100px auto;
   width: 80%;
 
+  h1 {
+    padding-bottom: 40px;
+  }
   .productContainer {
     display: flex;
     flex-wrap: wrap;

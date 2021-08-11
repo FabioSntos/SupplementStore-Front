@@ -16,7 +16,7 @@ export const Doubts = () => {
         <DoubtCard />
       </ContainerDoubts>
       <ImageDoubtsContainer>
-        <img src={DoubtImage} />
+        <img src={DoubtImage} alt="imagem" />
       </ImageDoubtsContainer>
     </Container>
   );
